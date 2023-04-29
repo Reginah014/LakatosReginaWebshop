@@ -29,13 +29,35 @@ body{
 }
 #prod1{
     background-color: rgb(0, 255, 255);
-    width: 200px;
 }
 #prod3{
     background-color: rgb(255, 204, 0);
-    width: 200px;
 }
 #prod2{
     background-color: rgb(30, 255, 0);
+}
+button:hover {
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px black;
+}
+button:active {
+    transform: translateY(5px);
+}
+button{
     width: 200px;
+    height: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: x-large;
+}
+.img1{
+    width: 230px;
+    height: 270px;
+}
+.img2{
+    width: 270px;
+    height: 270px;
+}
+.img3{
+    width: 290px;
+    height: 220px;
 }
