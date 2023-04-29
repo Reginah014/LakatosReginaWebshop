@@ -7,3 +7,18 @@
 #telph{
     width: 100%;
 }
+body{
+    background-color: beige;
+}
+.cim{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+.alcim{
+    font-style: italic;
+    text-decoration: underline;
+    font-size: large;
+}
